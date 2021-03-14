@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ENSTAR</string>
+    <string name="preferences_file_key">ENSTAR APP</string>
+
+    <string name="pref_login_username">LOGIN_USERNAME</string>
+    <string name="pref_server_address">SERVER_ADDRESS</string>
+</resources>
