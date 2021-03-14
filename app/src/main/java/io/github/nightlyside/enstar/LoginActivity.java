@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Getting back data from sharedpreferences
         usernameInput.setText((String) SharedPreferencesHelper.get(this, getString(R.string.pref_login_username), ""));
-        usernameInput.setText((String) SharedPreferencesHelper.get(this, getString(R.string.pref_server_address), "10.0.4.2:6666"));
+        serverPortInput.setText((String) SharedPreferencesHelper.get(this, getString(R.string.pref_server_address), "10.0.4.2:6666"));
     }
 
     public void pingServer(View v) {
